@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule Calculator</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <label for="classes">How many classes do you have today?</label>
+    <input type="number" id="classes" />
+    <br />
+    <label for="sleeping"
+      >How many hours are you planning on sleeping tonight?</label
+    >
+    <input type="number" id="sleeping" />
+    <br />
+    <label for="gaming"
+      >How many hours are you planning on playing games today?</label
+    >
+    <input type="number" id="gaming" />
+    <br />
+    <label for="studying"
+      >How many hours are you planning on studying today?</label
+    >
+    <input type="number" id="studying" />
+    <br />
+    <label for="bathroom"
+      >How much time in hours would you estimate it would take you in the
+      bathroom today?</label
+    >
+    <input type="number" id="bathroom" />
+    <br />
+    <label for="eating">How many hours are you planning on eating today?</label>
+    <input type="number" id="eating" />
+    <br />
+    <button id="submit">Submit</button>
+
+    <div id="myPlot"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
